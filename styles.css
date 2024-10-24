@@ -28,7 +28,7 @@ body {
 }
 
 
-header {
+.header {
     position: fixed;
     background-color: var(--addition-color);
     font-weight: 800;
@@ -70,6 +70,25 @@ header {
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 15;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: none;
+}
+
+.sidebar li {
+    width: 100%;
 }
 
 /* hero */
@@ -323,6 +342,7 @@ header {
     background-color: var(--primary-color);
     transition: 0.5s;
     box-shadow: 0px 14px 7px 0px rgba(0,0,0,0.75);
+    margin-bottom: 10px;
 }
 
 .contact:hover {
@@ -338,6 +358,8 @@ header {
 
 #contacts-list {
     width: 100%;
+    display: flex;
+    gap: 4px;
     /* display: flex;
     flex-wrap: wrap;
     flex-direction: column; */
@@ -361,7 +383,7 @@ footer {
 footer p {
     text-align: center;
     width: 100%;
-    font-size: 3vh;
+    font-size: 2.5vh;
     color: #000000;
 }
 
@@ -436,6 +458,10 @@ section {
     .nav-item {
         font-size: 1.2rem;
     }
+
+    .contact {
+        flex: 1 1 35%;
+    }
 }
 
 .no-background {
@@ -497,7 +523,7 @@ section {
         font-size: 20px;
     }
 
-    header {
+    .header {
         padding: 2.5vh 15%;
     }
 
