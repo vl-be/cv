@@ -482,19 +482,19 @@ section {
 
 @media (min-width: 1024px) and (max-width: 1439px) {
     html {
-        font-size: 21px;
+        font-size: 16px;
     }
 }
 
 @media only screen and (min-width: 1440px) and (max-width: 1919px) {
     html {
-        font-size: 24px;
+        font-size: 18px;
     }
 }
 
 @media only screen and (min-width: 1920px) {
     html {
-        font-size: 28px;
+        font-size: 20px;
     }
 
     header {
