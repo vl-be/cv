@@ -4,4 +4,4 @@ window.onscroll = () => {
     header.classList.toggle('no-background', window.scrollY < 100);
 }
 
-header.classList.toggle('no-background')
+// header.classList.toggle('no-background')
