@@ -113,9 +113,10 @@ body {
     width: 100%;
 }
 
-.mobile-nav li .nav-item {
+.mobile-btn {
     font-size: 10.5vw;
     margin: 0;
+    z-index: 15;
 }
 
 /* hero */
@@ -360,7 +361,7 @@ body {
 
 .contact {
     width: 16vw;
-    height: 25vh;
+    min-height: 25vh;
     font-size: 1.2rem;
     display: flex;
     flex-direction: column;
