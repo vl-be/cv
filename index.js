@@ -25,7 +25,7 @@ window.onscroll = () => {
 }
 
 menuButton.addEventListener('click', mobileToggle);
-mobileNavItems.addEventListener('click', mobileToggle);
+// mobileNavItems.addEventListener('click', mobileToggle);
 
 preventDefault = (e) => {
     e.preventDefault();
