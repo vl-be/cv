@@ -18,16 +18,17 @@ mobileToggle = () => {
         sidebar.classList.toggle('no-scroll');
         sidebarState = !sidebarState;
     };
-}
+};
 
 window.onscroll = () => {
     header.classList.toggle('no-background', window.scrollY < 200);
-}
+};
 
 menuButton.addEventListener('click', mobileToggle);
-// mobileNavItems.addEventListener('click', mobileToggle);
+mobileNavItems.forEach(item => {
+    item.addEventListener('click', mobileToggle);
+});
 
 preventDefault = (e) => {
     e.preventDefault();
-}
-
+};
