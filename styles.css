@@ -97,7 +97,7 @@ body {
     z-index: 9;
     background-color: var(--color-3);
     
-    transform: translateX(-100%);
+    transform: translateX(-200%);
     transition: 0.3s;
 
     display: flex;
