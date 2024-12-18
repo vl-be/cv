@@ -136,7 +136,6 @@ a.mobile-btn {
     background-repeat: no-repeat; 
     padding-top: 7rem;
     min-height: 100vh;
-    max-height: 110vh;
 }
 
 .hero-element {
@@ -349,10 +348,6 @@ a.mobile-btn {
     transform: scale(1.1);
 }
 
-/* .edu p {
-    width: 100%;
-} */
-
 /*contacts */
 #contacts {
     background-color: var(--color-3);
@@ -363,7 +358,7 @@ a.mobile-btn {
 
 .contact {
     width: 16vw;
-    min-height: 25vh;
+    min-height: 35vh;
     font-size: 1.4rem;
     display: flex;
     flex-direction: column;
